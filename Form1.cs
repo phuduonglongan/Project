@@ -15,5 +15,21 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (t1.Text != " " && t2.Text != "")
+            {
+                int a = int.Parse(t1.Text);
+                int b = int.Parse(t2.Text);
+
+            }
+
+        }
     }
 }
